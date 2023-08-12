@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class SwapNodes {
   public static LinkedListNode swapNodes(LinkedListNode head, int k) {
 

@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Reorder {
   public static LinkedListNode reorderList(LinkedListNode head) {
 
