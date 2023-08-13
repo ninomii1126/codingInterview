@@ -1,5 +1,6 @@
+package linkedList;
 
-class LinkedListNode {
+public class LinkedListNode {
     public int data;
     public LinkedListNode next;
 

@@ -1,3 +1,8 @@
+package swapNodes;
+
+import linkedList.LinkedList;
+import linkedList.LinkedListNode;
+
 public class SwapNodes {
   public static LinkedListNode swapNodes(LinkedListNode head, int k) {
 
