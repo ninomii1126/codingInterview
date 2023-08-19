@@ -9,14 +9,12 @@ public class SwapNodes {
     // Replace this placeholder return statement with your code
 
     LinkedListNode curr = head;
-    int count = 0;
+    int count = 1;
 
     LinkedListNode front = null;
     LinkedListNode end = null;
 
-    while (curr != null) {
-      count++;
-
+    while(curr != null){
       if (count == k) {
         front = curr;
         end = head;
@@ -27,6 +25,7 @@ public class SwapNodes {
       }
 
       curr = curr.next;
+      count++;
     }
 
     // swap values
