@@ -1,11 +1,14 @@
-import java.util.*;
+package linkedList;
+
 // Template for the linked list
-class LinkedList<T> {
+public class LinkedList<T> {
     public LinkedListNode head;
+
     // constructor will be used to make a LinkedList type object
     public LinkedList() {
         this.head = null;
     }
+
     // insertNodeAtHead method will insert a LinkedListNode at head
     // of a linked list.
     public void insertNodeAtHead(LinkedListNode node) {
@@ -16,6 +19,7 @@ class LinkedList<T> {
             this.head = node;
         }
     }
+
     // createLinkedList method will create the linked list using the
     // given integer array with the help of InsertAthead method.
     public void createLinkedList(int[] lst) {
@@ -25,5 +29,4 @@ class LinkedList<T> {
         }
     }
 
-    
 }
